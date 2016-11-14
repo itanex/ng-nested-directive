@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <link rel="ico" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="styles/site.css" />
+  <script src="vendor/angular/angular.min.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/nested/nested.js"></script>
+  <script src="scripts/nested/nested-controller.js"></script>
+  <script src="scripts/nested/node-directive.js"></script>
+  <script src="scripts/nested/leaf-directive.js"></script>
+  <title>Nested node/leaf</title>
+</head>
+
+<body role="document" ng-controller="NodeLeafController as vm">
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <span class="navbar-brand">Nested node/leaf directive</span>
+      </div>
+    </div>
+  </nav>
+  <div class="container" role="main">
+    <node nodes='vm.tree'></node>
+  </div>
+</body>
+
+</html>

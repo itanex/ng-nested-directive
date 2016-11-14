@@ -1,0 +1,27 @@
+{
+  "name": "ng-nested-directive",
+  "homepage": "https://github.com/itanex/ng-nested-directive",
+  "authors": [
+    "Bryan Wood <itanex@gmail.com>"
+  ],
+  "description": "ng-nested-directive",
+  "main": "index.html",
+  "keywords": [
+    "file",
+    "input",
+    "upload"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
